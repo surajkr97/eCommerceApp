@@ -1,5 +1,3 @@
-function AuthLogin(){
+export default function AuthLogin(){
     return <div>Login</div>
 }
-
-export default AuthLogin;
