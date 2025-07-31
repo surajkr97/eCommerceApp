@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import ShoppingHeader from "./header";
 
-function ShoppingLayout(){
+export default function ShoppingLayout(){
     return (
         <div className="flex flex-col bg-white overflow-hidden">
             {/* common header */}
@@ -12,5 +12,3 @@ function ShoppingLayout(){
         </div>
     )
 }
-
-export default ShoppingLayout;
